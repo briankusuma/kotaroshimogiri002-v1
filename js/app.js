@@ -51,10 +51,11 @@ observer.observe(el)
 // Header background on scroll
 window.addEventListener("scroll", () => {
 const header = document.querySelector("header")
-if (window.scrollY > 100) {
-    header.style.background = "rgba(10, 10, 10, 0.98)"
+if (window.scrollY > 200) {
+    
+    header.style.background = "#FAFAFA"
 } else {
-    header.style.background = "rgba(10, 10, 10, 0.95)"
+    header.style.background = "none"
 }
 })
 
