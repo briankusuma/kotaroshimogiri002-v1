@@ -349,7 +349,91 @@
         text-transform: uppercase;
         margin-top: 24px;
     }
-    
+    .innovative-image_wrapp{
+        margin-top: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .innovative-image_right,
+    .innovative-image_left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .innovative-image_left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about-kotaro{
+        color: #141414;
+        font-family: "PP Neue Montreal";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 116.667% */
+        letter-spacing: -0.72px;
+    }
+
+    .about-kotaro-symbol{
+        color: rgba(20, 20, 20, 0.70);
+        font-family: "PP Neue Montreal";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 116.667% */
+        letter-spacing: -0.72px;
+        margin-right:100px ;
+    }
+
+    .number-about{
+        color: #141414;
+        font-family: "PP Neue Montreal";
+        font-size: 88px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 88px; /* 100% */
+        letter-spacing: -2.64px;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+    .num-plus{
+        color: #FF3F00;
+    }
+
+    .number-aboutus{
+        color: rgba(20, 20, 20, 0.70);
+        font-family: "PP Neue Montreal";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 116.667% */
+        letter-spacing: -0.72px;
+        
+    }
+
+    .innovative-image_right{
+        gap: 48px;
+    }
+    .number-aboutus{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title_img-right{
+        color: #141414;
+        font-family: "PP Neue Montreal";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 48px; /* 120% */
+        letter-spacing: -1.2px;
+        max-width: 888px;
+        width: 100%;
+    }
+
     /* Technology Section */
     .tech-section {
         padding: 100px 0;
