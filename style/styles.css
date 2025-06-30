@@ -252,6 +252,67 @@
         box-shadow: 0 15px 40px rgba(255, 107, 107, 0.4);
     }
     
+
+    .hero-content_img{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #000000;
+    }
+
+    .subtext-hero-img{
+        color: #141414;
+        font-family: "PP Neue Montreal";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; /* 125% */
+        letter-spacing: -0.96px;
+        max-width: 660px;
+        width: 100%;
+
+    }
+    .icon-hero-img{
+        width: 64px;
+        height: 64px;
+        margin-bottom: 32px;
+    }
+    .hero-overlay{
+        width: 594px;
+        height: 360px;
+        background-image: url("/assets/img-hero.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        padding: 48px;
+    }
+    .head-overlay{
+        color: #FFF;
+        font-family: "PP Neue Montreal";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 116.667% */
+        letter-spacing: -0.72px;
+        text-align: end;
+        max-width: 287px;
+        width: 100%;
+        margin-left: auto;
+    }
+    .scroll-overlay{
+        color: rgba(255, 255, 255, 0.70);
+        text-align: start;
+        font-family: "PP Neue Montreal";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 133.333% */
+        letter-spacing: -0.18px;
+    }
     
     /* Stats Section */
     .stats-section {
