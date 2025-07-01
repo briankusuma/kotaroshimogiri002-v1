@@ -59,13 +59,6 @@ if (window.scrollY > 200) {
 }
 })
 
-// Parallax effect for gradient blob
-window.addEventListener("scroll", () => {
-const blob = document.querySelector(".gradient-blob")
-const scrolled = window.pageYOffset
-const rate = scrolled * -0.5
-blob.style.transform = `translateY(${rate}px)`
-})
 
 // Counter animation for stats
 function animateCounter(element, target) {
