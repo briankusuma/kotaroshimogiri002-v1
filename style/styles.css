@@ -800,7 +800,58 @@
         max-width: 888px;
         width: 100%;
         border-radius: 32px;
+
     }
+
+    .project_card-buttom-img-v2{
+        position: relative;
+        height: 440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .text-card-project-v2{
+        background: #141414;
+        width: 380px;
+        padding-bottom: 24px;
+        padding-right: 24px;
+        border-bottom-right-radius: 32px;
+        position: relative;
+    }
+    .shape-project-top{
+        position: absolute;
+        top: 0;
+        right: -32px;
+    }
+    .shape-project-btm{
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+    }
+
+    .shape-arrow-top{
+        position: absolute;
+        top: -32px;
+        right: 0;
+    }
+    .shape-arrow-btm{
+        position: absolute;
+        bottom: -8px;
+        left: -32px;
+    }
+
+    .arrow-btn-overlay{
+        background-color: #141414;
+        padding-top: 24px;
+        padding-left: 24px;
+        border-top-left-radius: 32px;
+        margin-left: auto;
+        width: 88px;
+        height: 88px;
+        position: relative;
+    }
+
     .card-buttom_wrapper{
         align-items: flex-end;
         justify-content: center;
@@ -835,6 +886,71 @@
     }
     .gap-wrapper{
         padding-top: 80px;
+    }
+
+    .arrow-btn{
+        border-radius: 100px;
+        background: #FF3F00;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 64px;
+        height: 64px;
+    }
+
+    .project_card-buttom-v2{
+        background-image: url("/assets/project-img_ai.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 774px;
+        height: 440px;
+        border-radius: 32px;
+    }
+
+    .pionerr-v2{
+        background-image: url("/assets/project-img_pionner.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 432px;
+        height: 280px;
+        border-radius: 32px;
+    }
+
+    .text-pioneer-v2{
+        background: #141414;
+        width: 340px;
+        padding-bottom: 24px;
+        padding-right: 24px;
+        border-bottom-right-radius: 32px;
+        position: relative;
+    }
+
+    .text-cross-v2{
+        background: #141414;
+        width: 512px;
+        padding-bottom: 24px;
+        padding-right: 24px;
+        border-bottom-right-radius: 32px;
+        position: relative;
+        border-top-left-radius: 24px;
+    }
+
+    .cross-v2{
+        background-image: url(/assets/project-img_cross.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 888px;
+        height: 440px;
+        border-radius: 32px;
+        z-index: 1;
+        position: relative;
+    }
+    .project-content_cta-v2{
+        padding-top: 40px;
     }
 /* creating Section */
 
