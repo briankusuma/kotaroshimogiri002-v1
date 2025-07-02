@@ -1499,9 +1499,9 @@
         }
     
         .principles-header {
-        flex-direction: column;
-        gap: 30px;
-        margin-bottom: 40px;
+            flex-direction: column-reverse;
+            gap: 14px;
+            margin-bottom: 40px;
         }
     
         .principles-main-title {
@@ -1557,12 +1557,14 @@
     
     @media (max-width: 480px) {
         .principles-main-title {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        line-height: 100%;
         }
-    
+        .principles-header{
+            margin: unset;
+        }
         .principles-hero {
         height: 350px;
-        border-radius: 20px;
         }
     
         .principles-hero-content {
@@ -1875,13 +1877,15 @@
         }
     
         .contact-title {
-        font-size: 2rem;
+            font-size: 2rem;
+            line-height: 120%;
         }
     
         .linkedin-button,
         .send-button {
         padding: 12px 20px;
         font-size: 0.9rem;
+        justify-content: space-between;
         }
     
         .button-arrow {
@@ -2213,4 +2217,145 @@
         font-size: 2.5rem;
         }
     }
-    
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero-text-right_wrapp h1{
+                font-size: 64px;
+                line-height: 100%;
+                padding-top: 40px;
+            }
+            .hero-content,
+            .hero-content_img{
+                flex-direction: column;
+            }
+            .hero-content{
+                padding: 80px 0;
+            }
+            .hero-text-left_wrapp {
+                gap: 40px;
+            }
+            .hero-overlay{
+                width: 100%;
+                margin-top: 40px;
+            }
+            .innovative-title{
+                font-size: 64px;
+                line-height: 100%;
+            }
+
+            .innovative-image_wrapp{
+                flex-direction: column;
+                gap: 60px;
+                margin-bottom: 120px;
+            }
+            .title_img-right{
+                font-size: 32px;
+            }
+            .number-aboutus{
+                margin-top: 40px;
+            }
+            .innovative-bg_text{
+                padding: 24px;
+                flex-direction: column-reverse;
+                gap: 40px;
+            }
+            .tag_float{
+                right: 0;
+            }
+            .project-content{
+                flex-direction: column;
+                gap: 80px;
+            }
+            .project-content-title{
+                font-size: 64px;
+                line-height: 100%;
+            }
+            .project-content_right{
+                max-width: 100%;
+                margin-top: 40px;
+            }
+            .float-star{
+                display: none;
+            }
+
+            .project_card-buttom,
+            .img-float-card{
+                width: 100%;
+                max-width: 100%;
+            }
+            
+
+            .card-pioneer,
+            .img-card-pioner{
+                width: 100%;
+                max-width: 100%;
+            }
+            .subtext-float-card{
+                right: 0;
+            }
+            .project_card-buttom-text{
+                flex-direction: column;
+                gap: 40px;
+                justify-content: flex-start;
+                align-items: flex-end;
+            }
+            .project-content_cta-text{
+                font-size: 24px;
+                line-height: 100%;
+            }
+            .creating-content_title{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .float-img-creating{
+                bottom: auto;
+                top: 0;
+                right: 0;
+            }
+            .creating_title-span{
+                width: 100%;
+            }
+            .creating_dsc-text{
+                width: 100%;
+            }
+            .creating_title-text{
+                font-size: 64px;
+            }
+            .paten_wrapper{
+                flex-direction: column;
+                gap: 60px;
+                align-items: flex-start;
+                padding-inline: 20px;
+            }
+            .video-bg-project{
+                height: 300px;
+            }
+            .project-content_cta, .project-content_cta-v2{
+                height: 300px;
+            }
+            .video-bg_cta {
+                height: 400px;
+            }
+            .star-guiding {
+                width: 60px;
+                height: auto;
+                margin-bottom: -40px;
+                margin-left: 256px;
+                z-index: 4;
+                position: relative;
+            }
+            .contact-description{
+                flex-direction: column-reverse;
+                align-items: flex-end;
+                gap: 40px;
+            }
+            .footer-bottom{
+                flex-direction: column-reverse;
+            }
+
+        }
+        
+        @media (max-width: 480px) {
+
+        }
