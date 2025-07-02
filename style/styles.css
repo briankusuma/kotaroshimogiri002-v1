@@ -105,7 +105,6 @@
     .nav-links a {
         text-decoration: none;
         transition: color 0.3s ease;
-
         color: rgba(20, 20, 20, 0.70);
         font-family: "PP Neue Montreal";
         font-size: 18px;
@@ -113,6 +112,16 @@
         font-weight: 400;
         line-height: 24px; /* 133.333% */
         letter-spacing: -0.18px;
+    }
+    .active a{
+        color: white;
+    }
+    .active span{
+        color: white!important;
+    }
+    .active .contact-connect{
+        margin-top: 104px;
+        margin-left: unset;
     }
     .nav-links span {
         text-decoration: none;
@@ -157,7 +166,7 @@
     .hamburger span {
         width: 25px;
         height: 3px;
-        background: #ffffff;
+        background: #141414;
         margin: 3px 0;
         transition: 0.3s;
     }
@@ -1564,7 +1573,7 @@
             margin: unset;
         }
         .principles-hero {
-        height: 350px;
+        height: 500px;
         }
     
         .principles-hero-content {
@@ -1892,6 +1901,7 @@
         width: 30px;
         height: 30px;
         }
+        
     }
         
     /* Footer */
@@ -2353,7 +2363,39 @@
             .footer-bottom{
                 flex-direction: column-reverse;
             }
+            .project_card-buttom-v2{
+                width: 100%;
+            }
+            .text-cross-v2,
+            .text-pioneer-v2,
+            .text-card-project-v2 {
+                width: 300px;
+            }
+            .principles-hero-content-v2{
+                padding: unset;
+            }
 
+            .hero_text-overlay{
+                width: 300px;
+            }
+            .vision-label-v2{
+                top: -2px;
+                right: 0px;
+            }
+            .vision-symbol{
+                margin-right: 90px;
+            }
+            .shape-overlay-v2-top{
+                top: -31px;
+            }
+            .logo{
+                font-size: 24px;
+            }
+            .head-overlay_v2 {
+                max-width: 300px;
+                padding-left: 40px;
+
+            }
         }
         
         @media (max-width: 480px) {
