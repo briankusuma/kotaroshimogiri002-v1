@@ -2272,6 +2272,7 @@
             }
             .tag_float{
                 right: 0;
+                top: 0;
             }
             .project-content{
                 flex-direction: column;
@@ -2395,6 +2396,10 @@
                 max-width: 300px;
                 padding-left: 40px;
 
+            }
+            .video-bg{
+            top: 0;
+            height: 600px;
             }
         }
         
