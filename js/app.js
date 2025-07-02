@@ -1,3 +1,4 @@
+console.log("hallo")
 // Mobile Navigation
 const hamburger = document.querySelector(".hamburger")
 const navLinks = document.querySelector(".nav-links")
@@ -127,6 +128,62 @@ gradientElements.forEach((element, index) => {
 
     element.style.filter = `hue-rotate(${hue}deg) saturate(${saturation}%) brightness(${lightness}%)`
 })
+
+
+
+function animateCounterTwice(countEl, target) {
+    const duration = 1000; // tiap animasi 1 detik
+    const frameRate = 60;
+    const steps = Math.round((duration / 1000) * frameRate);
+    const increment = target / steps;
+
+    let current = 0;
+    let count = 0;
+    let loop = 0;
+
+    const interval = setInterval(() => {
+      current += increment;
+      count++;
+
+      if (current >= target || count >= steps) {
+        loop++;
+        if (loop < 2) {
+          // ulang dari 0 lagi
+          current = 0;
+          count = 0;
+        } else {
+          // berhenti di target
+          current = target;
+          clearInterval(interval);
+        }
+      }
+
+      countEl.textContent = Math.floor(current);
+    }, 1000 / frameRate);
+  }
+
+  const statsObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const stat = entry.target.querySelector(".stat-number");
+          const countEl = stat.querySelector(".num-count");
+          const target = parseInt(stat.dataset.target, 10);
+          animateCounterTwice(countEl, target);
+          statsObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.5 }
+  );
+
+  const statsSection = document.querySelector(".stats-section");
+  if (statsSection) {
+    statsObserver.observe(statsSection);
+  }
+
+
+
 
 requestAnimationFrame(animateGradients)
 }
