@@ -288,7 +288,7 @@
     .hero-overlay{
         width: 594px;
         height: 360px;
-        background-image: url("/assets/img-hero.png");
+        background-image: url("/assets/img-hero.webp");
         background-size: cover;
         background-repeat: no-repeat;
 
@@ -302,7 +302,7 @@
     .hero-overlay_v2{
         width: 594px;
         height: 360px;
-        background-image: url("/assets/img-hero.png");
+        background-image: url("/assets/img-hero.webp");
         background-size: cover;
         background-repeat: no-repeat;
 
@@ -968,7 +968,7 @@
     }
 
     .project_card-buttom-v2{
-        background-image: url("/assets/project-img_ai.png");
+        background-image: url("/assets/project-img_ai.webp");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -978,7 +978,7 @@
     }
 
     .pionerr-v2{
-        background-image: url("/assets/project-img_pionner.png");
+        background-image: url("/assets/project-img_pionner.webp");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1007,7 +1007,7 @@
     }
 
     .cross-v2{
-        background-image: url(/assets/project-img_cross-v2.png);
+        background-image: url(/assets/project-img_cross-v2.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
